@@ -1,2 +1,27 @@
 /*=Custom
 -----------------------------------------------------------*/
+body{margin: 0;
+	padding: 0;
+    color: #fffefe;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+http://hopsierepo.local/wp-admin/theme-editor.php?file=header.php&theme=html5-blank-slate-master
+
+header.site-header {
+    height: auto;
+	 background: #efefef;
+	padding: 1rem;
+}
+
+    footer{background: #222222;
+    color: white;
+		font-size: 16px;
+padding: 1rem;}
+
+footer p {
+    color: #000;
+}
+
+
+
+

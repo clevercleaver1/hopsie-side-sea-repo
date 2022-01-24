@@ -7,6 +7,9 @@
 get_header(); ?>
 
 <div class="container index-content py-4" role="main">
+	<div class="row">
+		
+
 
   <?php
   if ( have_posts() ) :
@@ -21,5 +24,6 @@ get_header(); ?>
 </div><!-- end content -->
 
 <?php // get_sidebar(); ?>
+		</div>
 
 <?php get_footer(); ?>

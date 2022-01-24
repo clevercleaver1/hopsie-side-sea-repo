@@ -12,6 +12,7 @@
 
   <title><?php wp_title( '|', true, 'right' ); ?></title>
 
+
   <?php // Place favicon.ico and apple-touch-icon.png in the root of the domain ?>
 
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -23,7 +24,7 @@
 <body <?php body_class('d-flex flex-column h-100'); ?>>
 
 <header class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="<?= home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">

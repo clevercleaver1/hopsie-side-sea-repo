@@ -11,10 +11,12 @@ add_action('wp_enqueue_scripts', 'h5bs_enqueue_styles');
 // Enqueue Scripts
 function h5bs_enqueue_scripts()
 {
-  // wp_enqueue_script('example', get_template_directory_uri().'/assets/js/example.js', [], '1.0.0', true);
+ wp_enqueue_style( 'bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' );
+wp_enqueue_style( 'my-style', get_template_directory_uri() . '/style.css');
 }
 
 add_action('wp_enqueue_scripts', 'h5bs_enqueue_scripts');
+
 
 
 // Vite assets helpers
